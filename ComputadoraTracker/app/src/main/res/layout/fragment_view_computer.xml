@@ -14,7 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/buttonColor"
-        tools:context=".ui.viewEmployee.ViewEmployeeFragment">
+        tools:context=".ui.viewComputer.ViewComputerFragment">
 
 
         <ImageView

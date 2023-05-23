@@ -41,7 +41,7 @@ class FormFragment : Fragment() {
     }
 
     private fun setViewModel(){
-        binding.viewmodel = ComputerViewModel
+        binding.viewmodel = computerViewModel
     }
     //el binding se encarga de trasladar la data nueva al ViewModel
     private fun sentStatus(){

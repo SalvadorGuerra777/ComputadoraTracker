@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/nav_graph">
-
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment3">
+    <fragment
+        android:id="@+id/formFragment"
+        android:name="com.guerra.computadoratracker.ui.formcomputer.FormFragment"
+        android:label="FormFragment" />
+    <fragment
+        android:id="@+id/viewComputerFragment"
+        android:name="com.guerra.computadoratracker.ui.viewcomputer.ViewComputerFragment"
+        android:label="ViewComputerFragment" />
+    <fragment
+        android:id="@+id/mainFragment3"
+        android:name="com.guerra.computadoratracker.ui.main.MainFragment"
+        android:label="MainFragment" >
+        <action
+            android:id="@+id/action_mainFragment3_to_formFragment"
+            app:destination="@id/formFragment" />
+        <action
+            android:id="@+id/action_mainFragment3_to_viewComputerFragment"
+            app:destination="@id/viewComputerFragment" />
+    </fragment>
 </navigation>

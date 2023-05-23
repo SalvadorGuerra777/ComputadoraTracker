@@ -11,7 +11,7 @@
         >
 
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/recyle_view_employee"
+            android:id="@+id/recyle_view_computer"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_marginTop="@dimen/l_gap"
@@ -55,7 +55,7 @@
         </LinearLayout>
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
-            android:id="@+id/btn_add_employee"
+            android:id="@+id/btn_add_computer"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_gravity="end|bottom"

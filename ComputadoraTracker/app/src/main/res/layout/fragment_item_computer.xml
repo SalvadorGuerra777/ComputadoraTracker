@@ -12,7 +12,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:cardCornerRadius="@dimen/sm_gap"
         android:layout_marginTop="@dimen/sm_gap"
-        android:backgroundTint="@color/primary">
+        android:backgroundTint="@color/calification">
 
         <LinearLayout
             android:layout_width="match_parent"
