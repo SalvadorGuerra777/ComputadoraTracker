@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="background">#FFFFFFFF</color>
+    <color name="primary">#3A65FF</color>
+    <color name="secundary">#395EE0</color>
+    <color name="tertiary">#fff</color>
+    <color name="backgroundLayout">#202040</color>
+    <color name="cardLayout">#543864</color>
+    <color name="calification">#FFBD69</color>
+    <color name="buttonColor">#FF6363</color>
 </resources>
