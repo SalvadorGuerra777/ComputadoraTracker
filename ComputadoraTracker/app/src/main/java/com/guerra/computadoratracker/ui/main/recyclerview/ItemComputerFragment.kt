@@ -5,9 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.guerra.computadoratracker.R
-import com.guerra.computadoratracker.databinding.FragmentFormBinding
-import com.guerra.computadoratracker.databinding.FragmentItemComputerBinding
+import com.guerra.hoteltracker.databinding.FragmentItemComputerBinding
 
 
 class ItemComputerFragment : Fragment() {

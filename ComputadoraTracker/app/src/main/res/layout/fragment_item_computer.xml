@@ -40,7 +40,7 @@
                 >
 
                 <TextView
-                    android:id="@+id/text_view_name"
+                    android:id="@+id/text_view_marca"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     tools:text="Lenovo Thinkpad"
@@ -50,7 +50,7 @@
                     />
 
                 <TextView
-                    android:id="@+id/text_view_email"
+                    android:id="@+id/text_view_modelo"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     tools:text="henry.escobar@citala.edu.sv"

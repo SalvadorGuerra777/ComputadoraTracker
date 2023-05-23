@@ -4,7 +4,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.guerra.computadoratracker.data.model.ComputerModel
-import com.guerra.computadoratracker.databinding.FragmentItemComputerBinding
+import com.guerra.hoteltracker.databinding.FragmentItemComputerBinding
 
 class ComputerRecyclerViewAdapter(
     private val clickListener: (ComputerModel) -> Unit

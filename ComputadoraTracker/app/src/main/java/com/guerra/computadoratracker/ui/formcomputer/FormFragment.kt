@@ -9,9 +9,8 @@ import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import androidx.navigation.fragment.findNavController
-import com.guerra.computadoratracker.databinding.FragmentFormBinding
 import com.guerra.computadoratracker.ui.viewmodel.ComputerViewModel
-
+import com.guerra.hoteltracker.databinding.FragmentFormBinding
 
 
 class FormFragment : Fragment() {

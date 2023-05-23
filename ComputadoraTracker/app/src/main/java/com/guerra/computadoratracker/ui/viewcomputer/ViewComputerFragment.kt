@@ -7,8 +7,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
-import com.guerra.computadoratracker.databinding.FragmentViewComputerBinding
 import com.guerra.computadoratracker.ui.viewmodel.ComputerViewModel
+import com.guerra.hoteltracker.databinding.FragmentViewComputerBinding
 
 
 class ViewComputerFragment : Fragment() {
