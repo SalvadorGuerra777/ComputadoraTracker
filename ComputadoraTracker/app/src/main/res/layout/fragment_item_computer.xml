@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:cardCornerRadius="@dimen/sm_gap"
+        android:layout_marginTop="@dimen/sm_gap"
+        android:backgroundTint="@color/primary">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/sm_gap"
+            >
+
+            <ImageView
+                android:id="@+id/image_profile"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_weight="4"
+                android:contentDescription="Icono de descripcion"
+                app:srcCompat="@drawable/pc" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_marginLeft="@dimen/md_gap"
+                android:layout_marginTop="@dimen/sm_gap"
+                >
+
+                <TextView
+                    android:id="@+id/text_view_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="Lenovo Thinkpad"
+                    android:textColor="@color/background"
+                    android:paddingBottom="@dimen/sm_gap"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:id="@+id/text_view_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:text="henry.escobar@citala.edu.sv"
+                    android:textColor="@color/background"/>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</layout>
