@@ -4,7 +4,7 @@ package com.guerra.computadoratracker.data.adapter
 import android.annotation.SuppressLint
 import androidx.recyclerview.widget.RecyclerView
 import com.guerra.computadoratracker.data.model.ComputerModel
-import com.guerra.hoteltracker.databinding.FragmentItemComputerBinding
+import com.guerra.computadoratracker.databinding.FragmentItemComputerBinding
 
 class ComputerRecyclerViewHolder(private val binding: FragmentItemComputerBinding): RecyclerView.ViewHolder(binding.root) {
     @SuppressLint("SetTextI18n")

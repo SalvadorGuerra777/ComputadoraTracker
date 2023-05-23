@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.guerra.hoteltracker'
+    namespace 'com.guerra.computadoratracker'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.guerra.hoteltracker"
+        applicationId "com.guerra.computadoratracker"
         minSdk 24
         targetSdk 33
         versionCode 1

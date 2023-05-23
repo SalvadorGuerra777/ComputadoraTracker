@@ -18,8 +18,8 @@ import androidx.recyclerview.widget.RecyclerView
 import com.guerra.computadoratracker.data.adapter.ComputerRecyclerViewAdapter
 import com.guerra.computadoratracker.data.model.ComputerModel
 import com.guerra.computadoratracker.ui.viewmodel.ComputerViewModel
-import com.guerra.hoteltracker.R
-import com.guerra.hoteltracker.databinding.FragmentMainBinding
+import com.guerra.computadoratracker.R
+import com.guerra.computadoratracker.databinding.FragmentMainBinding
 
 
 /**

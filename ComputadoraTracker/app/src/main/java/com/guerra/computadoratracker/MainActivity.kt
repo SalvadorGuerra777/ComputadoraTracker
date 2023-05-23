@@ -7,7 +7,7 @@ import androidx.activity.viewModels
 import androidx.databinding.DataBindingUtil
 
 import com.guerra.computadoratracker.ui.viewmodel.ComputerViewModel
-import com.guerra.hoteltracker.databinding.ActivityMainBinding
+import com.guerra.computadoratracker.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding

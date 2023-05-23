@@ -22,7 +22,7 @@
             android:layout_width="@dimen/doble_xl_gap"
             android:layout_height="@dimen/doble_xl_gap"
             android:layout_marginTop="@dimen/md_gap"
-            android:contentDescription="Computadora"
+            android:contentDescription="@string/computadora"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
@@ -93,7 +93,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="@dimen/gap"
 
-                        android:text="Modelo"
+                        android:text="@string/modelo"
                         android:textColor="@color/black"
                         android:textSize="24sp"
                         android:textStyle="bold"

@@ -1,4 +1,4 @@
-package com.guerra.computadoratracker
+package com.guerra.hoteltracker
 
 import android.app.Application
 import com.guerra.computadoratracker.data.model.computers

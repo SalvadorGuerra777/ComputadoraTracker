@@ -6,7 +6,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
 import com.guerra.computadoratracker.data.model.ComputerModel
-import com.guerra.computadoratracker.ComputerReviewerApplication
+import com.guerra.hoteltracker.ComputerReviewerApplication
 import com.guerra.computadoratracker.repository.Repository
 import androidx.lifecycle.ViewModelProvider.AndroidViewModelFactory.Companion.APPLICATION_KEY
 

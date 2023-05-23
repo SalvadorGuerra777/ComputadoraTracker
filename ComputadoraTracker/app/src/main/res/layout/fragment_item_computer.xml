@@ -26,7 +26,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="80dp"
                 android:layout_weight="4"
-                android:contentDescription="Icono de descripcion"
+                android:contentDescription="@string/icono_de_descripcion"
                 app:srcCompat="@drawable/pc" />
 
             <LinearLayout
@@ -43,7 +43,7 @@
                     android:id="@+id/text_view_marca"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    tools:text="Lenovo Thinkpad"
+                    tools:text="@string/lenovo_thinkpad"
                     android:textColor="@color/background"
                     android:paddingBottom="@dimen/sm_gap"
                     android:textStyle="bold"

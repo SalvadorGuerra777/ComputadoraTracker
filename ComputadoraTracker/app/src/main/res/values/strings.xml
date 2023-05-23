@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">ComputadoraTracker</string>
+    <string name="icono_de_descripcion">Icono de descripcion</string>
+    <string name="lenovo_thinkpad">Lenovo Thinkpad</string>
+    <string name="agrega_una_computadora">Agrega una Computadora</string>
+    <string name="ingrese_el_modelo">Ingrese el modelo</string>
+    <string name="ingreese_la_marca">Ingreese la marca</string>
+    <string name="tienda_de_computadoras">Tienda de Computadoras</string>
+    <string name="agregar_clientes">Agregar clientes</string>
+    <string name="computadora">Computadora</string>
+    <string name="modelo">Modelo</string>
 </resources>
